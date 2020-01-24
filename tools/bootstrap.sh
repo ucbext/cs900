@@ -39,16 +39,6 @@ function main() {
         exit
     fi
 
-    ostype="$(uname -s)"
-    case "${ostype}" in
-        CYGWIN* | MINGW*)
-            echo "Error: work in the assignment repository can only be done in unix environments."
-            echo "Error: it appears you are running $ostype on Windows."
-            echo "Error: install the Windows Subsystem for Linux and re-run this script within it."
-            exit
-            ;;
-    esac
-
     git config --global core.whitespace fix,-indent-with-non-tab,trailing-space,cr-at-eol
     git config --global core.autocrlf input
 

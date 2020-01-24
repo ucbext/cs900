@@ -1,0 +1,6 @@
+# bazel
+bazel-*
+
+# miscellaneous
+*.tags
+.DS_Store

@@ -85,10 +85,11 @@ Mobile Service Provider
 -----------------------
 A mobile phone service provider has three different subscription packages for its customers:
 
-| Package Name | Minutes   | Base Cost (per month) | Additional Minutes (per minute) |
-| Package A    | 450       | $39.99                | $0.45                           |
-| Package B    | 900       | $59.99                | $0.40                           |
-| Package C    | Unlimited | $69.99                | $0.00                           |
+| Package Name  | Minutes   | Base Cost (per month) | Additional Minutes (per minute) |
+| ------------- | --------- | --------------------- | ------------------------------- |
+| Package A     | 450       | $39.99                | $0.45                           |
+| Package B     | 900       | $59.99                | $0.40                           |
+| Package C     | Unlimited | $69.99                | $0.00                           |
 
 Write a program that calculates a customer's monthly bill. It should ask which package the customer
 has purchased and how many minutes were used. It should then display the total amount due. If the

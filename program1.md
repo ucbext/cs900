@@ -7,9 +7,10 @@ Program 1 covers concepts found in the following chapters:
 - Chapter 3: Expressions and Interactivity
 - Chapter 4: Making decisions
 
-To get you started, each program file along with the appropriate Bazel configuration has already
-been setup for you in the `program1` directory. You simply need to fill out each file with the
-appropriate code.
+Before you begin, you may want to go back and review these chapters to ensure you understand them
+fully. To get you started, each program file along with the appropriate Bazel configuration has
+already been setup for you in the `program1` directory. You simply need to fill out each file with
+the appropriate code.
 
 In order for tests to pass and ensure that you get the proper grade that you deserve, you must
 ensure that your output case-sensitively matches the output that the tests expect.

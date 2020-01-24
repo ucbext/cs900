@@ -94,7 +94,7 @@ Write a program that uses the following arrays:
 The program should relate the data in each array through the subscripts. For example, the number in
 element 0 of the hours array should be the number of hours worked by the employee whose
 identification number is stored in element 0 of the `emp_id` array. That same employee's pay rate
-should be stored in element 0 of the `pay\_rate` array.
+should be stored in element 0 of the `pay_rate` array.
 
 The program should display each employee number and ask the user to enter that employee's hours and
 pay rate. It should then calculate the gross wages for that employee (hours times pay rate) and

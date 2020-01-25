@@ -1,17 +1,70 @@
 Student Setup
 -------------
+The development environment is a set of tools and processes used to create programs and software. In
+order to build, test, and run your programs, you will need to have a working `C++` development
+environment. This document will walk you through how to set up a proper development environment on
+your computer.
+
 Normally, repositories house code that all developers use as a base to build their changes off of.
 When other developers make changes, all developers pull them in and continue their work on top.
 In our case, however, each student will have a separate fork of this repository in order to complete
 their assignments. Furthermore, each student must keep their fork private so as to prevent any
-possible plagiarism. Unfortunately, GitHub does not allow private forks of public repositories.
+possible plagiarism. Unfortunately, GitHub does not allow private forks of public repositories. For
+this reason, we won't be using the standard GitHub workflow here. Instead, we have to jump through
+some hoops in order to support our specific use case, while also using GitHub's repository hosting
+platform.
 
-For this reason, we won't be using the standard GitHub workflow here. Instead, we have to jump
-through some hoops in order to support our specific use case, while also using GitHub's repository
-hosting platform.
+Part 1: Operating System Specific Setup
+-------------------------------
+Use the following instructions to properly set up your environment and your repository. The
+instructions are slightly different for different operating systems.
 
-- Ensure you have a GitHub account, have verified your email address, and are signed in
-- Set up [SSH access with GitHub](https://help.github.com/en/articles/connecting-to-github-with-ssh)
+### Mac OS X
+Mac OS X doesn't come standard with a lot of the developer tools necessary to build `C++` programs
+from scratch. To get these developer tools, you will have to install XCode tools on your computer.
+To do so, follow the instructions below:
+
+- Open a new terminal window
+  - Press command and the space bar together to open a Spotlight Search window
+  - Within Spotlight Search, type in `Terminal` and press enter once the search resolves
+- Install XCode Tools
+  - In the terminal window, run the command `xcode-select --install`
+  - Complete the installation of XCode tools
+- Set up SSH access with GitHub
+  - In the terminal window, run the command `ssh-keygen` to generate a new SSH key (the defaults are
+    fine for now, press enter until the SSH key has been successfully generated)
+  - In the terminal window, run the command `cat ~/.ssh/id_rsa.pub | pbcopy` (this command will copy
+    your SSH key to your clipboard automatically)
+  - Navigate to [GitHub's SSH key addition page](https://github.com/settings/ssh/new)
+  - Paste your SSH key into the text box and confirm the addition of a new SSH key
+- Inform the SSH agent about the new key
+  - In the terminal window, run the command `ssh-add`
+
+### Windows
+Windows doesn't come with a lot of the developer tools necessary to build `C++` programs from
+scratch. To get these developer tools, you will have to install a few different
+programs. To do so, follow the instructions below:
+
+- [Download](https://git-scm.com/download/win) and install `git`. During the installation, you will
+  be prompted to select various settings. The table below contains each setting and the correct
+  value to use for that setting.
+
+| **Setting Name**                                       | **Correct Setting Value**                                  |
+| Choosing the default editor used by Git                | Use the Nano editor by default                             |
+| Adjusting your PATH environment                        | Git from the command line and also from 3rd-party software |
+| Choosing HTTPS transport backend                       | Use the OpenSSL library                                    |
+| Configuring the line ending conversions                | Check out Windows-style, commit Unix-style line endings    |
+| Configuring the terminal emulator to use with Git Bash | Use Window's default console window                        |
+| Enable file system caching                             | Yes                                                        |
+| Enable Git credential manager                          | Yes                                                        |
+| Enable symbolic links                                  | No                                                         |
+
+- Open a new command prompt (`cmd.exe`)
+
+Part 2: General Setup
+---------------------
+- Create a [GitHub](https://github.com/join) account
+- Verify your email address with GitHub and sign in on GitHub
 - [Create a new repository](https://github.com/new) on GitHub
   - Name your repository `cs900`
   - Ensure the repository is marked private

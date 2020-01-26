@@ -60,6 +60,20 @@ Part 2: General Setup
 The following instructions are independent of the operating system you are using. They apply to all
 students regardless of their operating system.
 
+### Installing an IDE
+An integrated development environment (IDE) is a tool that developers use to work on code. The IDE includes all of the elements necessary to compile, run, and debug our programs. The IDE we will use for this class is Visual Studio Code. Follow the instructions below to install and properly set up the IDE.
+
+- [Download](https://code.visualstudio.com/Download) and install VSCode
+- Open VSCode and press ctrl+shift+x to open the extension installation page
+- Search for and install the following extensions within VSCode
+  - `C/C++`
+  - `bazel`
+- Load your assignment repository in your IDE and ensure you can compile and run programs and tests
+- Note: you are not required to use VSCode or even an IDE. You may use whatever tools you prefer
+  using. However, VSCode is the supported IDE for this class. If you venture off on your own, you
+  will be responsible for ensuring your environment works and runs programs properly.
+
+### Set Up Your `git` Repository
 - Create a [GitHub](https://github.com/join) account
 - Verify your email address with GitHub and sign in on GitHub
 - [Create a new repository](https://github.com/new) on GitHub
@@ -102,10 +116,3 @@ students regardless of their operating system.
   - Add your name to the `name.md` file in the top level root of the repository
   - Commit the addition and push the change to GitHub
   - This is how I know who the repository belongs to
-- Download and install the [VSCode](https://code.visualstudio.com) IDE (Integrated Development
-  Environment)
-- Install the [Bazel](https://bazel.build) plugin for the VSCode IDE
-- Load your assignment repository in your IDE and ensure you can compile and run programs and tests
-- Note: you are not required to use VSCode or even an IDE. You may use whatever tools you prefer
-  using. However, VSCode is the supported IDE for this class. If you venture off on your own, you
-  will be responsible for ensuring your environment works and runs programs properly.

@@ -52,11 +52,13 @@ programs. To do so, follow the instructions below:
 | Enable symbolic links                                  | No                                                         |
 
 - Install a `C++` compiler
-  - Download and install the [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
+  - Download and install the [Visual C++ Redistributable for Visual Studio
+    2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
 
 Part 2: General Setup
 ---------------------
-The following instructions are independent of the operating system you are using. They apply to all students regardless of their operating system.
+The following instructions are independent of the operating system you are using. They apply to all
+students regardless of their operating system.
 
 - Create a [GitHub](https://github.com/join) account
 - Verify your email address with GitHub and sign in on GitHub

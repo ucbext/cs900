@@ -50,6 +50,7 @@ programs. To do so, follow the instructions below:
   value to use for that setting.
 
 | **Setting Name**                                       | **Correct Setting Value**                                  |
+| ------------------------------------------------------ | ---------------------------------------------------------- |
 | Choosing the default editor used by Git                | Use the Nano editor by default                             |
 | Adjusting your PATH environment                        | Git from the command line and also from 3rd-party software |
 | Choosing HTTPS transport backend                       | Use the OpenSSL library                                    |

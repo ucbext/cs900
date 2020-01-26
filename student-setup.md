@@ -30,15 +30,6 @@ To do so, follow the instructions below:
 - Install XCode Tools
   - In the terminal window, run the command `xcode-select --install`
   - Complete the installation of XCode tools
-- Set up SSH access with GitHub
-  - In the terminal window, run the command `ssh-keygen` to generate a new SSH key (the defaults are
-    fine for now, press enter until the SSH key has been successfully generated)
-  - In the terminal window, run the command `cat ~/.ssh/id_rsa.pub | pbcopy` (this command will copy
-    your SSH key to your clipboard automatically)
-  - Navigate to [GitHub's SSH key addition page](https://github.com/settings/ssh/new)
-  - Paste your SSH key into the text box and confirm the addition of a new SSH key
-- Inform the SSH agent about the new key
-  - In the terminal window, run the command `ssh-add`
 
 ### Windows
 Windows doesn't come with a lot of the developer tools necessary to build `C++` programs from

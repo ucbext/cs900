@@ -51,7 +51,8 @@ programs. To do so, follow the instructions below:
 | Enable Git credential manager                          | Yes                                                        |
 | Enable symbolic links                                  | No                                                         |
 
-- Open a new command prompt (`cmd.exe`)
+- Install a `C++` compiler
+  - Download and install the [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
 
 Part 2: General Setup
 ---------------------
@@ -66,7 +67,7 @@ Part 2: General Setup
   - Select the `Collaborators` section on the left
   - Add the `fsareshwala` user as a collaborator to your repository
 - Bootstrap your repository
-  - Execute the following command in a new terminal
+  - Execute the following command in a new terminal (on Windows, use gitbash)
   - **Note**: make sure to replace `username` in the command with your GitHub username
   ```
   curl https://raw.githubusercontent.com/fsareshwala/cs900/master/tools/bootstrap.sh | bash -s username

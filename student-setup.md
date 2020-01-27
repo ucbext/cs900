@@ -95,8 +95,9 @@ students regardless of their operating system.
   ```
   - You will now have a directory named `cs900` where you executed the command above. This is your
     assignment directory where you will do your work.
-  - **Note**: if you are on Windows, you will need to place the `cs900` directory in a location
-    without a space in the path (e.g. /c/projects/cs900).
+  - **Note**: `bazel` doesn't work well with paths that have spaces in them. If your home directory
+    has spaces (e.g. on Windows), you will need to place the `cs900` directory in a location without
+    a space in the path (e.g. /c/projects/cs900).
 
 ### Installing an IDE
 An integrated development environment (IDE) is a tool that developers use to work on code. The IDE
@@ -121,4 +122,3 @@ Part 3: Making Your First Commit
   - Add your name to the `name.md` file in the top level root of the repository
   - Commit the addition and push the change to GitHub
   - This is how I know who the repository belongs to
-

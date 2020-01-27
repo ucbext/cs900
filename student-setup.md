@@ -88,6 +88,9 @@ students regardless of their operating system.
       ```
 - Bootstrap your repository
   - Run the following commands in a terminal (on Windows, use gitbash)
+  - **Note**: `bazel` doesn't work well with paths that have spaces in them. If your home directory
+    has spaces (e.g. on Windows), you will need to place the `cs900` directory in a location without
+    a space in the path (e.g. `/c/projects/cs900`).
   - **Note**: make sure to replace `username` in the last command with your GitHub username
   ```
   curl https://raw.githubusercontent.com/fsareshwala/cs900/master/tools/bootstrap.sh | bash -s username
@@ -95,25 +98,25 @@ students regardless of their operating system.
   ```
   - You will now have a directory named `cs900` where you executed the command above. This is your
     assignment directory where you will do your work.
-  - **Note**: `bazel` doesn't work well with paths that have spaces in them. If your home directory
-    has spaces (e.g. on Windows), you will need to place the `cs900` directory in a location without
-    a space in the path (e.g. `/c/projects/cs900`).
 
 ### Installing an IDE
 An integrated development environment (IDE) is a tool that developers use to work on code. The IDE
 includes all of the elements necessary to compile, run, and debug our programs. The IDE we will use
-for this class is Visual Studio Code. Follow the instructions below to install and properly set up
-the IDE.
+for this class is Visual Studio Code (VSCode).
+
+**Note**: you are not required to use VSCode or even an IDE. You may use whatever tools you prefer
+using. However, VSCode is the supported IDE for this class. If you venture off on your own, you will
+be responsible for ensuring your environment works and runs programs properly.
+
+Follow the instructions below to install and properly set up your IDE.
 
 - [Download](https://code.visualstudio.com/Download) and install VSCode
 - Open VSCode and press ctrl+shift+x to open the extension installation page
 - Search for and install the following extensions within VSCode
   - `C/C++`
-  - `bazel`
+  - `vscode-bazel`
+- Restart VSCode
 - Load your assignment repository in your IDE and ensure you can compile and run programs and tests
-- **Note**: you are not required to use VSCode or even an IDE. You may use whatever tools you prefer
-  using. However, VSCode is the supported IDE for this class. If you venture off on your own, you
-  will be responsible for ensuring your environment works and runs programs properly.
 
 Part 3: Making Your First Commit
 --------------------------------

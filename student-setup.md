@@ -97,7 +97,7 @@ students regardless of their operating system.
     assignment directory where you will do your work.
   - **Note**: `bazel` doesn't work well with paths that have spaces in them. If your home directory
     has spaces (e.g. on Windows), you will need to place the `cs900` directory in a location without
-    a space in the path (e.g. /c/projects/cs900).
+    a space in the path (e.g. `/c/projects/cs900`).
 
 ### Installing an IDE
 An integrated development environment (IDE) is a tool that developers use to work on code. The IDE
@@ -111,14 +111,17 @@ the IDE.
   - `C/C++`
   - `bazel`
 - Load your assignment repository in your IDE and ensure you can compile and run programs and tests
-  - Note: you are not required to use VSCode or even an IDE. You may use whatever tools you prefer
-    using. However, VSCode is the supported IDE for this class. If you venture off on your own, you
-    will be responsible for ensuring your environment works and runs programs properly.
+- **Note**: you are not required to use VSCode or even an IDE. You may use whatever tools you prefer
+  using. However, VSCode is the supported IDE for this class. If you venture off on your own, you
+  will be responsible for ensuring your environment works and runs programs properly.
 
 Part 3: Making Your First Commit
 --------------------------------
+Now that you have properly configured your system to build and run `C++` programs, let's start
+making some changes.
 
 - Identify yourself within your repository
-  - Add your name to the `name.md` file in the top level root of the repository
+  - Open the `name.md` file in the top level root of the repository
+  - Replace the contents with your name
   - Commit the addition and push the change to GitHub
   - This is how I know who the repository belongs to

@@ -32,8 +32,8 @@ To do so, follow the instructions below:
   - Complete the installation of XCode tools
 
 ### Windows
-Windows doesn't come with a lot of the developer tools necessary to build `C++` programs from
-scratch. To get these developer tools, you will have to install a few different
+Windows doesn't come with any of the developer tools necessary to build `C++` programs from scratch.
+To get these developer tools, you will have to install a few different
 programs. To do so, follow the instructions below:
 
 - [Download](https://git-scm.com/download/win) and install `git`
@@ -48,6 +48,17 @@ programs. To do so, follow the instructions below:
     iwr -useb get.scoop.sh | iex
     scoop install bazel
     ```
+
+### Chrome OS
+`C++` development on Chrome OS is currently experimental. If you have access to it, I highly
+encourage you to use either Mac OS X, Windows, or Linux directly. However, if you must use Chrome
+OS, follow the instructions below.
+
+- Enable [Linux on your Chromebook](https://support.google.com/chromebook/answer/9145439)
+- Open a terminal and enter the following command:
+  ```
+  sudo apt-get install bazel build-essential
+  ```
 
 Part 2: General Setup
 ---------------------
@@ -111,7 +122,9 @@ be responsible for ensuring your environment works and runs programs properly.
 Follow the instructions below to install and properly set up your IDE.
 
 - [Download](https://code.visualstudio.com/Download) and install VSCode
-- Open VSCode and press ctrl+shift+x to open the extension installation page
+  - **Note**: if you have a Chromebook, [use these instructions
+    instead](https://www.youtube.com/watch?v=WZvEbMUMf7s)
+- Open VSCode and open the extension installation page
 - Search for and install the following extensions within VSCode
   - `C/C++`
   - `vscode-bazel`

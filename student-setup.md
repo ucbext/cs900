@@ -15,7 +15,7 @@ some hoops in order to support our specific use case, while also using GitHub's 
 platform.
 
 Part 1: Operating System Specific Setup
--------------------------------
+---------------------------------------
 Use the following instructions to properly set up your environment and your repository. The
 instructions are slightly different for different operating systems.
 
@@ -30,6 +30,13 @@ To do so, follow the instructions below:
 - Install XCode Tools
   - In the terminal window, run the command `xcode-select --install`
   - Complete the installation of XCode tools
+- Install Bazel
+  - In the terminal window, run the following commands:
+    ```
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    brew tap bazelbuild/tap
+    brew install bazelbuild/tap/bazel
+    ```
 
 ### Windows
 Windows doesn't come with any of the developer tools necessary to build `C++` programs from scratch.

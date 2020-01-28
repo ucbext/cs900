@@ -29,8 +29,7 @@ To do so, follow the instructions below:
   - Within Spotlight Search, type in `Terminal` and press enter once the search resolves
 - Install XCode Tools
   - In the terminal window, run the command `xcode-select --install`
-  - Complete the installation of XCode tools
-- Install Bazel
+- Install Bazel (via [homebrew](https://brew.sh))
   - In the terminal window, run the following commands:
     ```
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"

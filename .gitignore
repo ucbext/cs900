@@ -1,6 +1,9 @@
 # bazel
 bazel-*
 
+# idea
+.ijwb
+
 # miscellaneous
 *.tags
 .DS_Store

@@ -66,12 +66,11 @@ OS, follow the instructions below.
   sudo apt-get install bazel build-essential
   ```
 
-Part 2: General Setup
----------------------
+Part 2: Bootstrap Your Repository
+---------------------------------
 The following instructions are independent of the operating system you are using. They apply to all
 students regardless of their operating system.
 
-### Set Up Your `git` Repository
 - If you don't already have one, create a [GitHub](https://github.com/join) account, verify your
   email address, and sign in to your account
 - [Create a new repository](https://github.com/new) on GitHub
@@ -116,7 +115,8 @@ students regardless of their operating system.
   - You will now have a directory named `cs900` where you executed the command above. This is your
     assignment directory where you will do your work.
 
-### Installing an IDE
+Part 3: Installing an IDE
+-------------------------
 An integrated development environment (IDE) is a tool that developers use to work on code. The IDE
 includes all of the elements necessary to compile, run, and debug our programs. The IDE we will use
 for this class is Visual Studio Code (VSCode).
@@ -137,7 +137,7 @@ Follow the instructions below to install and properly set up your IDE.
 - Restart VSCode
 - Load your assignment repository in your IDE and ensure you can compile and run programs and tests
 
-Part 3: Making Your First Commit
+Part 4: Making Your First Commit
 --------------------------------
 Now that you have properly configured your system to build and run `C++` programs, let's start
 making some changes.

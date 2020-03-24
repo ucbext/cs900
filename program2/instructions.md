@@ -12,7 +12,8 @@ already been setup for you in the `program2` directory. You simply need to fill 
 the appropriate code.
 
 In order for tests to pass and ensure that you get the proper grade that you deserve, you must
-ensure that your output case-sensitively matches the output that the tests expect.
+ensure that your output case-sensitively matches the output that the tests expect. Use the example
+outputs found at the end of every section to help guide how you format your output.
 
 Least Greatest
 --------------

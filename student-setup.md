@@ -79,7 +79,8 @@ students regardless of their operating system.
   - Create the repository
 - Add `fsareshwala` as a collaborator
   - Visit the `Settings` tab
-  - Select the `Collaborators` section on the left
+  - Select the `Manage access` section on the left
+  - Click `Invite a collaborator` near the bottom of the page
   - Add the `fsareshwala` user as a collaborator to your repository
 - Bootstrap your repository
   - Run the following commands in a terminal (on Windows, use gitbash)

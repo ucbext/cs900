@@ -29,15 +29,28 @@ The files you will need for this exercise are:
 
 - `program1/stock_commission.cc`
 
+Example output:
+
+    Total paid for stock: $26250
+    Total commission: $525
+    Total paid: $26775
+
 Angle Calculator
 ----------------
-Write a program that asks the user for an angle, entered in radians. The program should then display
-the sine, cosine, and tangent of the angle. (Use the `sin`, `cos`, and `tan` library functions to
-determine these values.)
+Write a program that asks the user for an angle. The program should then display the sine, cosine,
+and tangent of the angle. (Use the `sin`, `cos`, and `tan` library functions to determine these
+values.)
 
 The files you will need for this exercise are:
 
 - `program1/angle_calculator.cc`
+
+Example output:
+
+    Enter an angle: 0
+    sin: 0
+    cos: 1
+    tan: 0
 
 Monthly Payments
 ----------------
@@ -47,20 +60,24 @@ The monthly payment on a loan may be calculated by the following formula:
 
 Where `r` is the monthly interest rate, which is the annual interest rate divided by 12 (12\% annual
 interest would be 1 percent monthly interest). `n` is the number of payments, and `L` is the amount
-of the loan. Write a program that asks for these values and displays a report like so:
-
-    Loan Amount: $10000.00
-    Monthly Interest Rate: 1.00%
-    Number of Payments: 36
-    Monthly Payment: $332.14
-    Amount Paid Back: $11957.15
-    Interest Paid: $1957.15
-
-When displaying your output, ensure that the spacing and alignment is exactly as shown above.
+of the loan. Write a program that asks for these values and displays a report of the repayment
+structure.
 
 The files you will need for this exercise are:
 
 - `program1/monthly_payments.cc`
+
+Example output:
+
+    Enter the monthly interest rate: 1
+    Enter the number of payments: 36
+    Enter the total amount of the loan: 10000
+    Loan Amount: $10000
+    Monthly Interest Rate: 1%
+    Number of Payments: 36
+    Monthly Payment: $332.14
+    Amount Paid Back: $11957
+    Interest Paid: $1957.16
 
 Freezing and Boiling Points
 ---------------------------
@@ -82,6 +99,14 @@ The files you will need for this exercise are:
 
 - `program1/freezing_boiling_points.cc`
 
+Example output:
+
+    Enter a temperature: -173
+    Ethyl alcohol will freeze
+    Mercury will freeze
+    Oxygen will boil
+    Water will freeze
+
 Mobile Service Provider
 -----------------------
 A mobile phone service provider has three different subscription packages for its customers:
@@ -102,6 +127,14 @@ no message should be printed.
 The files you will need for this exercise are:
 
 - `program1/mobile_service_provider.cc`
+
+Example output:
+
+    Enter your package (A, B, C): A
+    Enter the number of minutes used: 573
+    Total bill: $95.34
+    If you purchase plan B, your savings would be: $35.35
+    If you purchase plan C, your savings would be: $25.35
 
 Testing your code
 -----------------

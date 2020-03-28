@@ -1,7 +1,1 @@
-#include <iostream>
-using namespace std;
-
-int main() {
-
-  return 0;
-}
+#include "program2/is_prime.h"

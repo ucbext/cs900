@@ -10,17 +10,36 @@ cc_binary(
   srcs = ["random_number_guessing.cc"],
 )
 
-cc_binary(
+cc_library(
   name = "lowest_score",
-  srcs = ["lowest_score.cc"],
+  srcs = [
+    "lowest_score.h",
+    "lowest_score.cc"
+  ],
 )
 
-cc_binary(
+cc_library(
   name = "is_prime",
-  srcs = ["is_prime.cc"],
+  srcs = [
+    "is_prime.h",
+    "is_prime.cc"
+  ],
 )
 
 cc_binary(
   name = "payroll",
   srcs = ["payroll.cc"],
+)
+
+cc_test(
+    name = "tests",
+    srcs = [
+      "test.cc"
+    ],
+    size = "small",
+    deps = [
+        ":lowest_score",
+        ":is_prime",
+        "@googletest//:gtest_main",
+    ],
 )

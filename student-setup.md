@@ -87,9 +87,9 @@ students regardless of their operating system.
   - **Note**: `bazel` doesn't work well with paths that have spaces in them. If your home directory
     has spaces (e.g. on Windows), you will need to place the `cs900` directory in a location without
     a space in the path (e.g. `/c/projects/cs900`).
-  - **Note**: make sure to replace `username` in the last command with your GitHub username
+  - **Note**: make sure to replace `username` in the command below with your GitHub username
   ```
-  curl https://raw.githubusercontent.com/fsareshwala/cs900/master/tools/bootstrap.sh | bash -s username
+  curl https://raw.githubusercontent.com/fsareshwala/dotfiles/master/prefix/bin/bootstrap | bash -s cs900 username
 
   ```
   - You will now have a directory named `cs900` where you executed the command above. This is your

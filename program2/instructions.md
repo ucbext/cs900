@@ -87,7 +87,7 @@ group is dropped. It should use the following functions:
 
 The files you will need for this exercise are:
 
-- `program2/lowest_score.h`
+- `program2/lowest_score.cc`
 
 Is Prime
 --------

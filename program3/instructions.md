@@ -22,7 +22,7 @@ copy. The function should return a pointer to the new array.
 
 The files you will need for this exercise are:
 
-- `program3/reverse.h`
+- `program3/reverse.cc`
 
 Ackermann
 ---------
@@ -36,7 +36,7 @@ Use the following logic in your function:
 
 The files you will need for this exercise are:
 
-- `program3/ackermann.h`
+- `program3/ackermann.cc`
 
 Recursive Linear Search
 -----------------------
@@ -50,7 +50,7 @@ Note: it may help to have a second function where you do the actual recursion.
 
 The files you will need for this exercise are:
 
-- `program3/linear_search.h`
+- `program3/linear_search.cc`
 
 Recursive Binary Search
 -----------------------
@@ -64,7 +64,7 @@ Note: it may help to have a second function where you do the actual recursion.
 
 The files you will need for this exercise are:
 
-- `program3/binary_search.h`
+- `program3/binary_search.cc`
 
 Testing your code
 -----------------

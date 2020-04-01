@@ -12,20 +12,19 @@ already been setup for you in the `program5` directory. You simply need to fill 
 the appropriate code.
 
 In order for tests to pass and ensure that you get the proper grade that you deserve, you must
-ensure that your output case-sensitively matches the output that the tests expect. Use the example
-outputs found at the end of every section to help guide how you format your output.
+ensure that your output case-sensitively matches the output that the tests expect.
 
-Test Scores
+Exam Scores
 -----------
-Write a class named `TestScores`. The class' constructor should accept an array of test scores as
+Write a class named `ExamScores`. The class' constructor should accept an array of exam scores as
 its argument, along with the array's size. The class should have a member function that returns the
-average of the test scores. If any test score in the array is negative or greater than 100, the
-class should throw an exception. Demonstrate the class in a program.
+average of the exam scores. If any exam score in the array is negative or greater than 100, the
+class should throw an exception.
 
 The files you will need for this exercise are:
 
-- `program5/test_scores.h`
-- `program5/test_scores.cc`
+- `program5/exam_scores.h`
+- `program5/exam_scores.cc`
 
 Templatized Sum
 ---------------
@@ -35,6 +34,7 @@ program that demonstrates the template function with various data types.
 
 The files you will need for this exercise are:
 
+- `program5/sum.h`
 - `program5/sum.cc`
 
 Testing your code

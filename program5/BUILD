@@ -1,8 +1,8 @@
 package(default_visibility = ["//visibility:public"])
 
 cc_binary(
-  name = "test_scores",
-  srcs = ["test_scores.cc"],
+  name = "exam_scores",
+  srcs = ["exam_scores.cc"],
 )
 
 cc_binary(

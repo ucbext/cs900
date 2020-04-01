@@ -1,48 +1,51 @@
 package(default_visibility = ["//visibility:public"])
 
 cc_library(
-  name = "reverse",
-  srcs = [
-    "reverse.h",
-    "reverse.cc",
-  ],
+    name = "reverse",
+    srcs = [
+        "reverse.cc",
+        "reverse.h",
+    ],
 )
 
 cc_library(
-  name = "ackermann",
-  srcs = [
-    "ackermann.h",
-    "ackermann.cc",
-  ],
+    name = "ackermann",
+    srcs = [
+        "ackermann.cc",
+        "ackermann.h",
+    ],
 )
 
 cc_library(
-  name = "linear_search",
-  srcs = [
-    "linear_search.h",
-    "linear_search.cc",
-  ],
+    name = "linear_search",
+    srcs = [
+        "linear_search.cc",
+        "linear_search.h",
+    ],
 )
 
 cc_library(
-  name = "binary_search",
-  srcs = [
-    "binary_search.h",
-    "binary_search.cc",
-  ],
+    name = "binary_search",
+    srcs = [
+        "binary_search.cc",
+        "binary_search.h",
+    ],
 )
 
 cc_test(
     name = "tests",
-    srcs = [
-      "test.cc"
-    ],
     size = "small",
+    srcs = [
+        "test_ackermann.cc",
+        "test_binary_search.cc",
+        "test_linear_search.cc",
+        "test_reverse.cc",
+    ],
     deps = [
         ":ackermann",
-        ":reverse",
-        ":linear_search",
         ":binary_search",
+        ":linear_search",
+        ":reverse",
         "@googletest//:gtest_main",
     ],
 )

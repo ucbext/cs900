@@ -1,5 +1,5 @@
 #pragma once
 
-void getScore(float& score);
-float findLowest(float scores[], int length);
-float calcAverage(float scores[], int length);
+void get_score(float& score);
+float find_lowest(float scores[], int length);
+float calc_average(float scores[], int length);

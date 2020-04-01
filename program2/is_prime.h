@@ -1,3 +1,3 @@
 #pragma once
 
-bool isPrime(int input);
+bool is_prime(int input);

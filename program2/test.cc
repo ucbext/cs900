@@ -34,7 +34,7 @@ float call_get_score(float input) {
   // call getScore
   dprintf(fds[1], "%f\n", input);
   float score = -1.0f;
-  getScore(score);
+  get_score(score);
 
   // restore old stdin and stdout
   EXPECT_EQ(0, close(fds[0])) << strerror(errno);
@@ -80,7 +80,7 @@ TEST(LowestScoreTest, FindLowest) {
     scores[i] = r;
   }
 
-  ASSERT_EQ(expected, findLowest(scores, size));
+  ASSERT_EQ(expected, find_lowest(scores, size));
 }
 
 TEST(LowestScoreTest, CalcAverage) {
@@ -94,9 +94,9 @@ TEST(LowestScoreTest, CalcAverage) {
     sum += r;
   }
 
-  float lowest = findLowest(scores, size);
+  float lowest = find_lowest(scores, size);
   float expected = (sum - lowest) / (size - 1);
-  ASSERT_EQ(expected, calcAverage(scores, size));
+  ASSERT_EQ(expected, calc_average(scores, size));
 }
 
 TEST(IsPrimeTest, PrimeNumbers) {
@@ -114,10 +114,10 @@ TEST(IsPrimeTest, PrimeNumbers) {
 
   for (int i = 2; i < 1000; i++) {
     if (primes.count(i) == 0) {
-      ASSERT_FALSE(isPrime(i)) << i;
+      ASSERT_FALSE(is_prime(i)) << i;
     }
     else {
-      ASSERT_TRUE(isPrime(i)) << i;
+      ASSERT_TRUE(is_prime(i)) << i;
     }
   }
 }

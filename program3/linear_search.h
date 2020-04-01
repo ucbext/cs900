@@ -1,3 +1,3 @@
 #pragma once
 
-int linearSearch(int array[], int size, int value);
+int linear_search(int array[], int size, int value);

@@ -34,7 +34,8 @@ cc_binary(
 cc_test(
     name = "tests",
     srcs = [
-      "test.cc"
+      "test_is_prime.cc",
+      "test_lowest_score.cc",
     ],
     size = "small",
     deps = [

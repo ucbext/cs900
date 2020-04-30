@@ -14,16 +14,6 @@ the appropriate code.
 In order for tests to pass and ensure that you get the proper grade that you deserve, you must
 ensure that your output case-sensitively matches the output that the tests expect.
 
-String Reverse
---------------
-Write a recursive function, `reverse`, that accepts a string as its argument and returns the string
-in reverse order.
-
-The files you will need for this exercise are:
-
-- `program4/string_reverse.h`
-- `program4/string_reverse.cc`
-
 Word Separator
 --------------
 Write a function, `separateWords`, that accepts as input a sentence in which all of the words are

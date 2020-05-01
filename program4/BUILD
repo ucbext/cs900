@@ -3,32 +3,32 @@ package(default_visibility = ["//visibility:public"])
 cc_library(
   name = "string_reverse",
   srcs = [
-    "string_reverse.h"
-    "string_reverse.cc"
+    "string_reverse.h",
+    "string_reverse.cc",
   ],
 )
 
 cc_library(
   name = "word_separator",
   srcs = [
-    "word_separator.h"
-    "word_separator.cc"
+    "word_separator.h",
+    "word_separator.cc",
   ],
 )
 
 cc_library(
   name = "password_verification",
   srcs = [
-    "password_verification.h"
-    "password_verification.cc"
+    "password_verification.h",
+    "password_verification.cc",
   ],
 )
 
 cc_library(
   name = "dynamic_array",
   srcs = [
-    "dynamic_array.h"
-    "dynamic_array.cc"
+    "dynamic_array.h",
+    "dynamic_array.cc",
   ],
 )
 

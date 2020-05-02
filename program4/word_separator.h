@@ -2,4 +2,4 @@
 
 #include <string>
 
-int separate_words(const std::string& input);
+std::string separate_words(const std::string& input);

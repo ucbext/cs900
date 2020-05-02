@@ -10,12 +10,22 @@ cc_binary(
   srcs = ["sum.cc"],
 )
 
-cc_binary(
-  name = "person_customer_data",
-  srcs = ["person_customer_data.cc"],
+cc_library(
+  name = "dynamic_array",
+  srcs = [
+    "dynamic_array.h",
+    "dynamic_array.cc",
+  ],
 )
 
-cc_binary(
-  name = "preferred_customer",
-  srcs = ["preferred_customer.cc"],
+cc_test(
+    name = "tests",
+    size = "small",
+    srcs = [
+      "test_dynamic_array.cc",
+    ],
+    deps = [
+        ":dynamic_array",
+        "@googletest//:gtest_main",
+    ],
 )

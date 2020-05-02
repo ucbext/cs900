@@ -17,14 +17,6 @@ cc_library(
 )
 
 cc_library(
-  name = "dynamic_array",
-  srcs = [
-    "dynamic_array.h",
-    "dynamic_array.cc",
-  ],
-)
-
-cc_library(
   name = "retail_store",
   srcs = [
     "person.h",
@@ -40,13 +32,11 @@ cc_test(
     name = "tests",
     size = "small",
     srcs = [
-      # "test_dynamic_array.cc",
       "test_password_verification.cc",
       # "test_retail_store.cc",
       "test_word_separator.cc",
     ],
     deps = [
-        # ":dynamic_array",
         ":password_verification",
         # ":retail_store",
         ":word_separator",

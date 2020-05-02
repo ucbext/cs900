@@ -47,29 +47,6 @@ The files you will need for this exercise are:
 - `program4/dynamic_array.h`
 - `program4/dynamic_array.cc`
 
-Exam Scores
------------
-Write a class named `ExamScores`. The class' constructor should accept an array of exam scores as
-its argument, along with the array's size. The class should have a member function that returns the
-average of the exam scores. If any exam score in the array is negative or greater than 100, the
-class should throw an exception.
-
-The files you will need for this exercise are:
-
-- `program5/exam_scores.h`
-- `program5/exam_scores.cc`
-
-Templatized Sum
----------------
-Write a templatized function `sum`. The function should accept a templatized array and the size of
-the array. The function should calculate the sum of all of the values in the array. Write a simple
-program that demonstrates the template function with various data types.
-
-The files you will need for this exercise are:
-
-- `program5/sum.h`
-- `program5/sum.cc`
-
 Testing your code
 -----------------
 Tests have already been written to help you ensure that your code works. The following command(s)

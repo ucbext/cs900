@@ -36,11 +36,15 @@ software requires that users' passwords meet the following criteria:
 - The password should contain at least one lowercase letter
 - The password should have at least one digit
 
-Write a function, `verify_password`, that takes in a string password and then verifies that it meets
-the stated criteria. The function should return `true` if the password is valid and `false`
-otherwise.
+The function `verify_password` has already been written for you. However, it doesn't quite work yet.
+In order to get it to work, you need to write the following functions. The functions should return
+`true` if the password is valid for that specific check and `false` otherwise. Writing each check in
+its own function allows for a more modular and easy to reason about program.
 
-Hint: write each check in its own function for a more modular and easy to reason about program.
+- `bool has_six_chars(const std::string& password)`
+- `bool has_uppercase(const std::string& password)`
+- `bool has_lowercase(const std::string& password)`
+- `bool has_digit(const std::string& password)`
 
 The files you will need for this exercise are:
 

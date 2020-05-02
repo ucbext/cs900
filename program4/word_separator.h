@@ -1,3 +1,5 @@
 #pragma once
 
-int word_search(int array[], int size, int value);
+#include <string>
+
+int separate_words(const std::string& input);

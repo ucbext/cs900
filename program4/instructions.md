@@ -16,7 +16,7 @@ ensure that your output case-sensitively matches the output that the tests expec
 
 Word Separator
 --------------
-Write a function, `separateWords`, that accepts as input a sentence in which all of the words are
+Write a function, `separate_words`, that accepts as input a sentence in which all of the words are
 run together, but the first character of each word is uppercase. Convert the sentence to a string in
 which the words are separated by spaces and only the first word starts with an uppercase letter. For
 example the string "StopAndSmellTheRoses." would be converted to "Stop and smell the roses."
@@ -36,7 +36,7 @@ software requires that users' passwords meet the following criteria:
 - The password should contain at least one lowercase letter
 - The password should have at least one digit
 
-Write a function, `verifyPassword`, that takes in a string password and then verifies that it meets
+Write a function, `verify_password`, that takes in a string password and then verifies that it meets
 the stated criteria. The function should return `true` if the password is valid and `false`
 otherwise.
 

@@ -64,11 +64,13 @@ customer's information. Write a class, `Person`, with the following member varia
 - `int zip`
 - `int phone`
 
-Write the appropriate getter and setter functions for these member variables. Next, write a class,
-`Customer`, which is derived from `Person`. The `Customer` class should have the following
-additional member variables:
+Write the appropriate getter and setter functions for these member variables. Make sure not to
+accept negative values for a person's zip code and phone number. Next, write a class, `Customer`,
+which is derived from `Person`. The `Customer` class should have the following additional member
+variables:
 
-- `int customer_number`: holds a unique integer for each customer
+- `int customer_number`: holds a unique integer for each customer. Make sure not to accept negative
+  values.
 - `bool mailing_list`: set to `true` if the customer wishes to be on the mailing list, `false`
   otherwise
 
@@ -86,11 +88,14 @@ cumulative purchases in the store.
 Write a class, `PreferredCustomer`, which is derived from the `Customer` class you created earlier.
 The `PreferredCustomer` class should have the following member variables:
 
-- `float purchase_amount`: holds the total of a customer's purchases to date
-- `float discount_level`: the discount percentage this customer receives, according to the store's
-  preferred customer plan above
+- `float purchase_amount`: holds the total of a customer's purchases to date. Make sure not to
+  accept negative values.
 
 Again, write appropriate getter and setter methods for these member variables.
+
+The `PreferredCustomer` class also must have a getter for the customer's discount level, called
+`int get_discount_level()`. This getter must calculate the discount level the customer should
+receive based on the purchases they have made at the store.
 
 The files you will need for this exercise are:
 

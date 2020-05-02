@@ -33,12 +33,12 @@ cc_test(
     size = "small",
     srcs = [
       "test_password_verification.cc",
-      # "test_retail_store.cc",
+      "test_retail_store.cc",
       "test_word_separator.cc",
     ],
     deps = [
         ":password_verification",
-        # ":retail_store",
+        ":retail_store",
         ":word_separator",
         "@googletest//:gtest_main",
     ],

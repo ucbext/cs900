@@ -1,14 +1,6 @@
 package(default_visibility = ["//visibility:public"])
 
 cc_library(
-  name = "string_reverse",
-  srcs = [
-    "string_reverse.h",
-    "string_reverse.cc",
-  ],
-)
-
-cc_library(
   name = "word_separator",
   srcs = [
     "word_separator.h",
@@ -51,12 +43,10 @@ cc_test(
       "test_dynamic_array.cc",
       "test_password_verification.cc",
       "test_preferred_customer.cc",
-      "test_string_reverse.cc",
       "test_word_separator.cc",
     ],
     size = "small",
     deps = [
-        ":string_reverse",
         ":word_separator",
         ":password_verification",
         ":dynamic_array",

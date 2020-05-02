@@ -7,7 +7,7 @@ AlignEscapedNewlines: Right
 AllowShortFunctionsOnASingleLine: Empty
 AllowShortIfStatementsOnASingleLine: false
 AllowShortLoopsOnASingleLine: false
-AlwaysBreakAfterReturnType: TopLevelDefinitions
+AlwaysBreakAfterReturnType: None
 BreakConstructorInitializers: BeforeComma
 ColumnLimit: 100
 DerivePointerAlignment: false
@@ -17,17 +17,4 @@ PointerAlignment: Left
 SpaceAfterTemplateKeyword: false
 SpaceBeforeParens: ControlStatements
 SpacesInContainerLiterals: false
-
-BreakBeforeBraces: Custom
-BraceWrapping:
-  AfterFunction: true
-  SplitEmptyFunction: false
-
-  AfterClass: false
-  SplitEmptyRecord: false
-
-  AfterUnion: true
-  AfterStruct: true
-  BeforeElse: false
-  BeforeCatch: true
 ...

@@ -1,5 +1,3 @@
 #include <gtest/gtest.h>
 
-TEST(RetailStoreTest, Foo) {
-
-}
+TEST(RetailStoreTest, Foo) {}

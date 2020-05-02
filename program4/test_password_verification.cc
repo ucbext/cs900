@@ -1,5 +1,3 @@
 #include <gtest/gtest.h>
 
-TEST(PasswordVerificationTest, Foo) {
-
-}
+TEST(PasswordVerificationTest, Foo) {}

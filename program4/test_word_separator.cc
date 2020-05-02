@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 
-#include "program4/word_separator.h"
 #include <iostream>
+#include "program4/word_separator.h"
 
 TEST(WordSeparatorTest, EmptyString) {
     ASSERT_EQ("", separate_words(""));

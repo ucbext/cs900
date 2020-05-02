@@ -45,7 +45,7 @@ Recursive Linear Search
 Any iterative algorithm can be written in a recursive manner as well. Implement linear search, but
 recursively. Implement the following function:
 
-- `int linearSearch(int array[], int size, int value)`: implements the linear search algorithm, but
+- `int linear_search(int array[], int size, int value)`: implements the linear search algorithm, but
   recursively. Returns the index where `value` was found or -1 if `value` was not found.
 
 Note: it may help to have a second function where you do the actual recursion.
@@ -60,7 +60,7 @@ Recursive Binary Search
 The binary search algorithm presented in class is the iterative version. Implement binary search,
 but recursively. Implement the following function:
 
-- `int binarySearch(int array[], int size, int value)`: implements the binary search algorithm, but
+- `int binary_search(int array[], int size, int value)`: implements the binary search algorithm, but
   recursively. Returns the index where `value` was found or -1 if `value` was not found.
 
 Note: it may help to have a second function where you do the actual recursion.

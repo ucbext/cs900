@@ -75,14 +75,14 @@ Lowest Score
 Write functions that calculate the average of a group of test scores, where the lowest score in the
 group is dropped. It should use the following functions:
 
-- `void getScore`: should ask the user for a test score and validate it as being between 0 and
+- `void get_score`: should ask the user for a test score and validate it as being between 0 and
   100. If the user enters a valid score, store it in the reference parameter variable. If the user
    enters an invalid score, don't change the reference parameter variable. Finally, ask the user
    only once. Don't keep asking until the user enters a valid score.
-- `float findLowest`: should take an array and its size and return the lowest of the scores passed
-  to it. It should be called by `calcAverage`, which uses the function to determine which of the
+- `float find_lowest`: should take an array and its size and return the lowest of the scores passed
+  to it. It should be called by `calc_average`, which uses the function to determine which of the
   five scores to drop.
-- `float calcAverage`: should take an array and its size and return the average of the scores
+- `float calc_average`: should take an array and its size and return the average of the scores
   passed to it, making sure to drop the lowest one.
 
 The files you will need for this exercise are:
@@ -96,7 +96,7 @@ A prime number is a number that is only evenly divisible by itself and 1. For ex
 is prime because it can only be evenly divided by 1 and 5. The number 6, however, is not prime
 because it can be divided evenly by 1, 2, 3, and 6.
 
-Write a function name `bool isPrime`, which takes an integer as an argument and returns `true` if
+Write a function name `bool is_prime`, which takes an integer as an argument and returns `true` if
 the argument is a prime number, or `false` otherwise. Demonstrate the function in a complete
 program.
 

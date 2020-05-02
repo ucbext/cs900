@@ -28,7 +28,7 @@ float call_get_score(float input) {
   EXPECT_EQ(0, close(STDOUT_FILENO)) << strerror(errno);
   EXPECT_NE(-1, dup2(fd_dev_null, STDOUT_FILENO)) << strerror(errno);
 
-  // call getScore
+  // call get_score
   dprintf(fds[1], "%f\n", input);
   float score = -1.0f;
   get_score(score);

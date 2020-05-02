@@ -1,3 +1,5 @@
 #pragma once
 
-int* reverse(int array[], int size);
+#include <vector>
+
+std::vector<int> reverse(const std::vector<int>& data);

@@ -16,9 +16,9 @@ ensure that your output case-sensitively matches the output that the tests expec
 
 Reverse
 -------
-Write a function, `reverse`, that accepts an integer array and the array's size as arguments. The
-function should create a copy of the array, except that the element values should be reversed in the
-copy. The function should return a pointer to the new array.
+Write a function, `reverse`, that accepts a vector of integers as an argument. The function should
+create a copy of the vector, except that the element values should be reversed in the copy. The
+function should return the vector copy.
 
 The files you will need for this exercise are:
 
@@ -45,8 +45,9 @@ Recursive Linear Search
 Any iterative algorithm can be written in a recursive manner as well. Implement linear search, but
 recursively. Implement the following function:
 
-- `int linear_search(int array[], int size, int value)`: implements the linear search algorithm, but
-  recursively. Returns the index where `value` was found or -1 if `value` was not found.
+- `int linear_search(const std::vector<int>& haystack, int needle)`: implements the linear search
+  algorithm, but recursively. Returns the index where `value` was found or -1 if `value` was not
+  found.
 
 Note: it may help to have a second function where you do the actual recursion.
 
@@ -60,8 +61,10 @@ Recursive Binary Search
 The binary search algorithm presented in class is the iterative version. Implement binary search,
 but recursively. Implement the following function:
 
-- `int binary_search(int array[], int size, int value)`: implements the binary search algorithm, but
-  recursively. Returns the index where `value` was found or -1 if `value` was not found.
+
+- `int binary_search(const std::vector<int>& haystack, int needle)`: implements the binary search
+  algorithm, but recursively. Returns the index where `value` was found or -1 if `value` was not
+  found.
 
 Note: it may help to have a second function where you do the actual recursion.
 

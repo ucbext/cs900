@@ -19,7 +19,8 @@ TEST(IsPrimeTest, PrimeNumbers) {
   for (int i = 2; i < 1000; i++) {
     if (primes.count(i) == 0) {
       ASSERT_FALSE(is_prime(i)) << i;
-    } else {
+    }
+    else {
       ASSERT_TRUE(is_prime(i)) << i;
     }
   }

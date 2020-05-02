@@ -17,4 +17,8 @@ PointerAlignment: Left
 SpaceAfterTemplateKeyword: false
 SpaceBeforeParens: ControlStatements
 SpacesInContainerLiterals: false
+
+BreakBeforeBraces: Custom
+BraceWrapping:
+  BeforeElse: true
 ...

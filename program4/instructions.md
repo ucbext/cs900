@@ -56,8 +56,8 @@ Retail Store
 A retail store has hired you to implement their data model by writing classes that will store their
 customer's information. Write a class, `Person`, with the following member variables:
 
-- `string last_name`
 - `string first_name`
+- `string last_name`
 - `string address`
 - `string city`
 - `string state`

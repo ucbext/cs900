@@ -38,19 +38,18 @@ cc_library(
 
 cc_test(
     name = "tests",
+    size = "small",
     srcs = [
-      "test_customer.cc",
-      "test_dynamic_array.cc",
-      "test_password_verification.cc",
-      "test_preferred_customer.cc",
+      # "test_dynamic_array.cc",
+      # "test_password_verification.cc",
+      # "test_retail_store.cc",
       "test_word_separator.cc",
     ],
-    size = "small",
     deps = [
+        # ":dynamic_array",
+        # ":password_verification",
+        # ":retail_store",
         ":word_separator",
-        ":password_verification",
-        ":dynamic_array",
-        ":retail_store",
         "@googletest//:gtest_main",
     ],
 )

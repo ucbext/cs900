@@ -2,7 +2,7 @@
 Language:        Cpp
 BasedOnStyle:  Google
 
-AccessModifierOffset: -4
+AccessModifierOffset: -2
 AlignEscapedNewlines: Right
 AllowShortFunctionsOnASingleLine: Empty
 AllowShortIfStatementsOnASingleLine: false
@@ -14,7 +14,7 @@ DerivePointerAlignment: false
 IndentCaseLabels: true
 IndentWidth: 2
 PointerAlignment: Left
-SpaceAfterTemplateKeyword: false
+SpaceAfterTemplateKeyword: true
 SpaceBeforeParens: ControlStatements
 SpacesInContainerLiterals: false
 

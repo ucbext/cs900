@@ -18,22 +18,25 @@ Dynamic Array
 -------------
 Vectors in C++ are like dynamic arrays which can grow and shrink as necessary. Someone had to write
 the code for them in order to be included into the C++ standard library. For the purposes of this
-exercise, let's assume that you are that person. Write a templatized class, `DynamicArray`, which
-behaves like a vector but with slight modifications. Remember that in a standard vector, as elements
-are added, the vector grows (doubles) to allow for new elements being added. In our `DynamicArray`
-we also want to grow, but instead of doubling, we will triple in size to allow for the new elements
-being added. Implement the class along with the following functions within your class.
+exercise, let's assume that you are that person.
+
+Write a templatized class, `DynamicArray`, which behaves like a vector but with slight
+modifications. Remember that in a standard vector, as elements are added, the vector grows (doubles)
+to allow for new elements being added. In our `DynamicArray` we also want to grow, but instead of
+doubling, we will triple in size to allow for the new elements being added. Implement the class
+along with the following functions within your class.
 
 - `Constructor`: provide a default constructor and a constructor that accepts an initial size of the
   dynamic array. The default constructor should initialize the `DynamicArray` to zero elements.
 - `Destructor`: free the memory held by the `DynamicArray`
-- `int at(int index)`: access a specific integer at the given index
-- `int first()`: access the first element
-- `int last()`: access the last element
-- `bool empty()`: return `true` if the `DyanmicArray` is empty, `false` otherwise
-- `int size()`: return the number of elements currently in the `DynamicArray`
-- `int capacity()`: return the total amount of elements the `DynamicArray` can hold before it will
-  have to grow larger
+- `int at(int index)`: access a specific integer at the given index. If the index is larger than
+  the total number of elements in the `DynamicArray`, throw an exception.
+- `int get_first()`: access the first element
+- `int get_last()`: access the last element
+- `bool is_empty()`: return `true` if the `DyanmicArray` is empty, `false` otherwise
+- `int get_size()`: return the number of elements currently in the `DynamicArray`
+- `int get_capacity()`: return the total amount of elements the `DynamicArray` can hold before it
+  will have to grow larger
 - `void shrink()`: remove excess capacity and shrink the `DynamicArray` capacity to exactly the
   number of elements currently being used in the `DynamicArray`
 - `void clear()`: clear the contents of the `DynamicArray`

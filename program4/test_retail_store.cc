@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 
-#include "program4/person.h"
 #include "program4/customer.h"
+#include "program4/person.h"
 #include "program4/preferred_customer.h"
 
 TEST(PersonTest, FirstName) {

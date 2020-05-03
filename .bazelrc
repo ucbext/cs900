@@ -1,0 +1,10 @@
+build --linkopt -fsanitize=address
+
+build --cxxopt=-std=c++17
+build --cxxopt -Werror                  # Every warning is treated as an error.
+build --cxxopt -fsanitize=address
+build --cxxopt -DADDRESS_SANITIZER
+build --cxxopt -fno-omit-frame-pointer
+
+test --test_output=errors
+test --cache_test_results=yes

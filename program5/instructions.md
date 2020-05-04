@@ -33,7 +33,7 @@ along with the following functions within your class.
   the total number of elements in the `DynamicArray`, throw an exception.
 - `int get_first()`: access the first element
 - `int get_last()`: access the last element
-- `bool is_empty()`: return `true` if the `DyanmicArray` is empty, `false` otherwise
+- `bool is_empty()`: return `true` if the `DynamicArray` is empty, `false` otherwise
 - `int get_size()`: return the number of elements currently in the `DynamicArray`
 - `int get_capacity()`: return the total amount of elements the `DynamicArray` can hold before it
   will have to grow larger
@@ -47,8 +47,8 @@ You may not use vectors from the standard library for this exercise.
 
 The files you will need for this exercise are:
 
-- `program4/dynamic_array.h`
-- `program4/dynamic_array.cc`
+- `program5/dynamic_array.h`
+- `program5/dynamic_array.cc`
 
 Testing your code
 -----------------

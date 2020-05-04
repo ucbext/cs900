@@ -1,15 +1,5 @@
 package(default_visibility = ["//visibility:public"])
 
-cc_binary(
-  name = "exam_scores",
-  srcs = ["exam_scores.cc"],
-)
-
-cc_binary(
-  name = "sum",
-  srcs = ["sum.cc"],
-)
-
 cc_library(
   name = "dynamic_array",
   srcs = [

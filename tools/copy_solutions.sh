@@ -17,7 +17,6 @@ entirely.
 
     Required arguments:
         -p|--program          The program number to copy solutions for
-        -r|--repo             The path to the git repository where solutions are available
 
     Optional arguments:
         -h|--help             Show this help
@@ -29,10 +28,6 @@ function main() {
     while [[ $# -gt 0 ]]; do
         key="$1"
         case $key in
-            -r|--repo)
-                repo_path="$2"
-                shift; shift
-                ;;
             -p|--program)
                 program="$2"
                 shift; shift
@@ -48,9 +43,8 @@ function main() {
         esac
     done
 
-    if [[ -z "$repo_path" ]]; then
-        log_error "no repo path provided"
-    elif [[ -z "$program" ]]; then
+    repo_path=$(dirname $(dirname $0))
+    if [[ -z "$program" ]]; then
         log_error "no program number provided"
     fi
 

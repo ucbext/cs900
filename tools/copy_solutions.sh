@@ -49,51 +49,51 @@ function main() {
     fi
 
     files=()
-    if [[ $program == 1 ]]; then
+    if [[ $program == "program1" ]]; then
         files+=("angle_calculator.cc")
         files+=("freezing_boiling_points.cc")
         files+=("mobile_service_provider.cc")
         files+=("monthly_payments.cc")
         files+=("stock_commission.cc")
-    elif [[ $program == 2 ]]; then
+    elif [[ $program == "program2" ]]; then
+        files+=("is_prime.h")
         files+=("is_prime.cc")
         files+=("least_greatest.cc")
+        files+=("lowest_score.h")
         files+=("lowest_score.cc")
         files+=("payroll.cc")
         files+=("random_number_guessing.cc")
-    elif [[ $program == 3 ]]; then
+    elif [[ $program == "program3" ]]; then
+        files+=("ackermann.h")
         files+=("ackermann.cc")
-        files+=("lottery.cc")
+        files+=("binary_search.h")
+        files+=("binary_search.cc")
+        files+=("lienar_search.h")
+        files+=("lienar_search.cc")
+        files+=("reverse.h")
         files+=("reverse.cc")
-        files+=("search_benchmark.cc")
-    elif [[ $program == 4 ]]; then
-        files+=("array.cc")
-        files+=("array.h")
-        files+=("car.cc")
-        files+=("car.h")
-        files+=("inventory.cc")
-        files+=("inventory.h")
-        files+=("movie_data.cc")
-        files+=("movie_data.h")
+    elif [[ $program == "program4" ]]; then
+        files+=("customer.h")
+        files+=("customer.cc")
+        files+=("password_verification.h")
         files+=("password_verification.cc")
-        files+=("string_reverse.cc")
-        files+=("word_separator.cc")
-    elif [[ $program == 5 ]]; then
-        files+=("person_customer_data.cc")
-        files+=("person_customer_data.h")
-        files+=("preferred_customer.cc")
+        files+=("person.h")
+        files+=("person.cc")
         files+=("preferred_customer.h")
-        files+=("sum.cc")
-        files+=("test_scores.cc")
-        files+=("test_scores.h")
+        files+=("preferred_customer.cc")
+        files+=("word_separator.h")
+        files+=("word_separator.cc")
+    elif [[ $program == "program5" ]]; then
+        files+=("dynamic_array.h")
+        files+=("dynamic_array.cc")
     else
         log_error "invalid program number"
     fi
 
     for file in "${files[@]}"; do
-        directory=solutions/program$program
+        directory=solutions/$program
         mkdir -p $directory
-        cp $repo_path/program$program/$file $directory
+        cp $repo_path/$program/$file $directory
     done
 }
 

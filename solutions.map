@@ -1,0 +1,36 @@
+program1: program1/angle_calculator.cc
+program1: program1/freezing_boiling_points.cc
+program1: program1/mobile_service_provider.cc
+program1: program1/monthly_payments.cc
+program1: program1/stock_commission.cc
+
+program2: program2/is_prime.h
+program2: program2/is_prime.cc
+program2: program2/least_greatest.cc
+program2: program2/lowest_score.h
+program2: program2/lowest_score.cc
+program2: program2/payroll.cc
+program2: program2/random_number_guessing.cc
+
+program3: program3/ackermann.h
+program3: program3/ackermann.cc
+program3: program3/binary_search.h
+program3: program3/binary_search.cc
+program3: program3/lienar_search.h
+program3: program3/lienar_search.cc
+program3: program3/reverse.h
+program3: program3/reverse.cc
+
+program4: program4/customer.h
+program4: program4/customer.cc
+program4: program4/password_verification.h
+program4: program4/password_verification.cc
+program4: program4/person.h
+program4: program4/person.cc
+program4: program4/preferred_customer.h
+program4: program4/preferred_customer.cc
+program4: program4/word_separator.h
+program4: program4/word_separator.cc
+
+program5: program5/dynamic_array.h
+program5: program5/dynamic_array.cc

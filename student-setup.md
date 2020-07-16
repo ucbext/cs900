@@ -82,20 +82,21 @@ students regardless of their operating system.
   - Select the `Manage access` section on the left
   - Click `Invite a collaborator` near the bottom of the page
   - Add the `fsareshwala` user as a collaborator to your repository
-- Bootstrap your repository
-  - Run the following commands in a terminal (on Windows, use gitbash)
-  - **Note**: `bazel` doesn't work well with paths that have spaces in them. If your home directory
-    has spaces (e.g. on Windows), you will need to place the `cs900` directory in a location without
-    a space in the path (e.g. `/c/projects/cs900`).
-  - **Note**: make sure to replace `username` in the command below with your GitHub username
-  ```
-  curl https://raw.githubusercontent.com/fsareshwala/dotfiles/master/prefix/bin/bootstrap | bash -s cs900 username
+- Email `fsareshwala@berkeley.edu` that you have created your repository. I will complete the
+  remaining bootstrap steps to fill your repository with the code you need to complete your
+  assignments.
+- Wait for a response from me before continuing on to the next section.
 
-  ```
-  - You will now have a directory named `cs900` where you executed the command above. This is your
-    assignment directory where you will do your work.
+Part 3: Cloning Your Repository
+-------------------------------
+Now that your repository contains the code necessary to complete your assignments, you can clone
+your repository using GitHub Desktop or whatever other method you prefer.
 
-Part 3: Installing an IDE
+**Note**: some of the tools we use in this course don't work well with paths that contain spaces. If
+you are using Windows, make sure to clone your repository to a location that doesn't have a space in
+its path.
+
+Part 4: Installing an IDE
 -------------------------
 An integrated development environment (IDE) is a tool that developers use to work on code. The IDE
 includes all of the elements necessary to compile, run, and debug our programs. The IDE we will use
@@ -117,7 +118,7 @@ Follow the instructions below to install and properly set up your IDE.
 - Restart VSCode
 - Load your assignment repository in your IDE and ensure you can compile and run programs and tests
 
-Part 4: Making Your First Commit
+Part 5: Making Your First Commit
 --------------------------------
 Now that you have properly configured your system to build and run `C++` programs, let's start
 making some changes.

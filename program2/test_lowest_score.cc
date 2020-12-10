@@ -64,7 +64,7 @@ TEST(LowestScoreTest, GetScoreValid) {
 }
 
 TEST(LowestScoreTest, FindLowest) {
-  size_t size = 1000;
+  const size_t size = 1000;
   float scores[size] = {0};
 
   float expected = std::numeric_limits<float>::max();
@@ -83,7 +83,7 @@ TEST(LowestScoreTest, FindLowest) {
 TEST(LowestScoreTest, CalcAverage) {
   float sum = 0.0f;
 
-  size_t size = 1000;
+  const size_t size = 1000;
   float scores[size] = {0};
   for (unsigned int i = 0; i < size; i++) {
     float r = static_cast<float>(rand()) / (static_cast<float>(RAND_MAX / size));
